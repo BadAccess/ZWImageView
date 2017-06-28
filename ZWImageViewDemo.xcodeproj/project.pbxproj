@@ -15,6 +15,8 @@
 		6288E3821F03486E006E7425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6288E3801F03486E006E7425 /* LaunchScreen.storyboard */; };
 		6288E38D1F03486E006E7425 /* ZWImageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288E38C1F03486E006E7425 /* ZWImageViewDemoTests.m */; };
 		6288E3981F03486E006E7425 /* ZWImageViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288E3971F03486E006E7425 /* ZWImageViewDemoUITests.m */; };
+		6288E3A71F03488A006E7425 /* ZWImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6288E3A61F03488A006E7425 /* ZWImageView.m */; };
+		6288E3A91F034947006E7425 /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6288E3A81F034947006E7425 /* image.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		6288E3931F03486E006E7425 /* ZWImageViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWImageViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6288E3971F03486E006E7425 /* ZWImageViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWImageViewDemoUITests.m; sourceTree = "<group>"; };
 		6288E3991F03486E006E7425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6288E3A51F03488A006E7425 /* ZWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWImageView.h; sourceTree = "<group>"; };
+		6288E3A61F03488A006E7425 /* ZWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWImageView.m; sourceTree = "<group>"; };
+		6288E3A81F034947006E7425 /* image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		6288E3711F03486E006E7425 /* ZWImageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6288E3A81F034947006E7425 /* image.jpeg */,
 				6288E3751F03486E006E7425 /* AppDelegate.h */,
 				6288E3761F03486E006E7425 /* AppDelegate.m */,
 				6288E3781F03486E006E7425 /* ViewController.h */,
@@ -110,6 +116,8 @@
 				6288E3801F03486E006E7425 /* LaunchScreen.storyboard */,
 				6288E3831F03486E006E7425 /* Info.plist */,
 				6288E3721F03486E006E7425 /* Supporting Files */,
+				6288E3A51F03488A006E7425 /* ZWImageView.h */,
+				6288E3A61F03488A006E7425 /* ZWImageView.m */,
 			);
 			path = ZWImageViewDemo;
 			sourceTree = "<group>";
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6288E3821F03486E006E7425 /* LaunchScreen.storyboard in Resources */,
+				6288E3A91F034947006E7425 /* image.jpeg in Resources */,
 				6288E37F1F03486E006E7425 /* Assets.xcassets in Resources */,
 				6288E37D1F03486E006E7425 /* Main.storyboard in Resources */,
 			);
@@ -276,6 +285,7 @@
 				6288E37A1F03486E006E7425 /* ViewController.m in Sources */,
 				6288E3771F03486E006E7425 /* AppDelegate.m in Sources */,
 				6288E3741F03486E006E7425 /* main.m in Sources */,
+				6288E3A71F03488A006E7425 /* ZWImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
